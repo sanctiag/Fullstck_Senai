@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Mini CRUD Node + MySQL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<img src="acolaboradores.jpeg" alt="">
+
+<h2>BEM VINDO USUÁRIO AO SISTEMA DE GESTÃO DE ITENS.</h2>
+
+<div class="card">
+    <h3>Adicionar Item</h3>
+    <input id="nome" placeholder="Nome do item">
+    <button onclick="salvar()">Salvar</button>
+</div>
+
+
+<div class="card">
+    <h3>Itens cadastrados</h3>
+    <table>
+        <thead>
+            <tr>
+                <th class="tdh">ID</th>
+                <th class="tdh">Nome</th>
+                <th class="tdh">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="lista"></tbody>
+    </table>
+</div>
+<h2>Mini CRUD com Node + MySQL  PROFESSOR YANES </h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>

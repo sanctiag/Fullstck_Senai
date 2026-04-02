@@ -1,0 +1,16 @@
+npm init -y
+____________________
+package.js
+__________________
+
+
+
+npm install express mysql2
+______________________
+node_modules/
+package-lock.json
+______________________
+
+
+node server.js
+

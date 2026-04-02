@@ -1,0 +1,8 @@
+CREATE DATABASE minicrud;
+
+USE minicrud;
+
+CREATE TABLE itens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100)
+);
