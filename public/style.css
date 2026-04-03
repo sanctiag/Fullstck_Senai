@@ -4,8 +4,8 @@ body {
     border-radius: 10px;
     color: lab(25.2% 8.91 -38.85);
     height: 100vh;
-    box-shadow: 0 0 20px rgba(255, 255, 100, 1);
-    box-shadow: 0 0 20px gb(13, 100, 13);
+    
+    box-shadow: 0 0 20px rgb(16, 57, 110);
     border-color: #ccc;
     font-weight: bold;
     
